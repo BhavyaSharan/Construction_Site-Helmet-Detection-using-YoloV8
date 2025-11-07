@@ -6,7 +6,7 @@ label_dir = "datasets/labels"
 train_img = "datasets/train/images"
 train_lbl = "datasets/train/labels"
 val_img = "datasets/val/images"
-val_lbl = "datasets/val/labels"
+val_lbl = "datasets/val/labels "
 
 os.makedirs(train_img, exist_ok=True)
 os.makedirs(train_lbl, exist_ok=True)
