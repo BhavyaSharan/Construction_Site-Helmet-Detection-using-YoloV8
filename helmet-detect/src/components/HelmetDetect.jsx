@@ -14,7 +14,7 @@ const HelmetDetect = () => {
   const [statusMessage, setStatusMessage] = useState("Waiting for detection...");
   const [statusKey, setStatusKey] = useState("waiting");
 
-  const API_URL = "http://localhost:8000/detect_base64"; // FastAPI endpoint
+  const API_URL = "https://construction-site-helmet-detection-using-fzcv.onrender.com/detect_base64"; // FastAPI endpoint
 
   // Sounds
   const warningSound = new Howl({
